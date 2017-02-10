@@ -1,0 +1,7 @@
+Makefile
+CMakeFiles
+CMakeCache.txt
+*.cmake
+!VERSION.cmake
+!cmake/Modules/*.cmake
+build

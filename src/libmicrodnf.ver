@@ -1,0 +1,14 @@
+MICRODNF_1.0 {
+	global:
+		dnf_error_quark;
+		dnf_context;
+		dnf_free;
+		dnf_get_plugindir;
+		dnf_set_plugindir;
+		dnf_repo_set_uri;
+		dnf_repo_set_speed_limit;
+		dnf_context_repo;
+		dnf_repo_free;
+	local:
+		*;
+};
